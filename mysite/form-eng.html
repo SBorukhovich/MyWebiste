@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Order</title>
+ </head>
+ <body>
+ 	<style type="text/css">
+ 		form {
+ 			font-family: Roboto, sans-serif;
+			font-size: 20px;
+ 		}
+ 		#submit{
+ 			border: 1px solid #05c273;
+ 			font-family: Roboto, sans-serif;
+			font-size: 20px;
+			background-color: white;
+ 		}
+ 		
+ 	</style>
+ <form name="test" method="post" action="send.php">
+  <p><b>Name:</b><br>
+   <input type="text" size="40" name="nick">
+  </p>
+  <p><b>Choose one of the following:</b><Br>
+   <input type="checkbox" name="call" value="ie"> Phone call<Br>
+   <input type="checkbox" name="email" value="opera"> E-mail<Br>
+  </p>
+  <p>Your E-mail<Br>
+   <input type="email" name="comment" cols="40" rows="3"></p>
+<p><input id="submit" type="submit" value="Send">
+   <input id="submit" type="reset" value="Clear"></p>
+ </form>
+</body>
+</html>

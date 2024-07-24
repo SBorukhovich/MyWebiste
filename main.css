@@ -132,7 +132,7 @@ p {
 }
 
 #circle-box {
-	background-image: url("circleback.png");
+	background-image: url("mysite/circleback.png");
 	width: 919px;
 	height: 668px;
 	background-size: cover;

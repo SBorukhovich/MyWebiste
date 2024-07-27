@@ -1,0 +1,130 @@
+
+@media screen and (max-width:1200px){
+	#name-2{
+		width: 200px;
+		color:black;
+	}
+	#main-picture-button {
+		top: 400px;
+	}
+	#button-call{
+        margin-right: 10px;	
+	}
+	#big-screen-text{
+		padding: 90px 20px 0px 115px;
+	}
+	
+}
+@media screen and (max-width:920px){
+	#circle-box{
+	float: left;
+	width: 100vh;
+	width: 100%;
+	}
+	
+	#flex-container3{
+		flex-wrap: wrap;
+	}
+
+	
+}
+@media screen and (max-width:780px){
+	.nav-text {
+		font-size: 20px;
+	}
+	
+	#header-text{
+		height: 150px;
+	}
+	#header-phone{
+		display: none;
+		top: 90px;
+		left: 10px;
+		padding-left: 10px;
+	}
+	#big-screen-text{
+		font-size: 40px;
+	}
+	#big-screen-text2{
+		font-size: 19px;
+	}
+	
+	#main-picture-button{
+		position: absolute;
+		top: 470px;
+	}
+	#name{
+		position: absolute;
+		width: 400px;
+	}
+	#name-2{
+		position: absolute;
+		top: 400px;
+		font-size: 23px;
+		width: 280px;
+	}
+	#list-item2 {
+		font-size: 16px;
+		display: inline;
+		margin: 0px 0px 20px 10px;
+		float: inline-start;
+	}
+	#footer1-center {
+		margin: 0;
+		padding-top: 200px;
+	}
+	#button-call-footer{
+		height: 35px;
+   		width: 160px;
+	}
+	#about-me-text{
+		padding: 0px 80px 0px 80px;
+	}
+
+	
+}
+@media screen and (max-width:585px){
+	#name{
+		font-size: 50px;
+	}
+	#name-2{
+		font-size: 20px;
+		top: 350px;
+	}
+	#main-picture-button{
+		position: absolute;
+		top: 420px;
+	}
+	
+	#button-call{
+		display: none;
+	}
+	#big-screen{
+		height: 275px;
+	}
+	.nav-text {
+		display: flex;
+		justify-content: center;
+	}
+	#big-screen-text{
+		padding: 50px 20px 0px 60px;
+		font-size: 30px;
+	}
+	#big-screen-text2{
+		padding-left: 60px;
+		font-size: 13px;
+	}
+	
+	#about-me-text {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width:430px){
+	#button-call{
+		top: 120px;
+		left:20px;}
+	#header-phone{
+		width: 200px;
+	}
+}
